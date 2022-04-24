@@ -1,0 +1,41 @@
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 60px;
+}
+
+.product-one-text-content{
+    width: 30%;
+}
+
+.product-one-text-content h1{
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.vertical-bar{
+    border-left: 6px solid #f59474;
+    height: 546px;
+}
+
+.lower-container-for-text, .text-reports-container, .advantages-of-gypsum{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+
+.test-reports-heading{
+    text-align: center;
+}
+.text-reports-container h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.image-advantages img{
+    height: 580px;
+    width: 1000px;
+}

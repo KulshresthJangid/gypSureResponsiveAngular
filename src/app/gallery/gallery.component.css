@@ -1,0 +1,37 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container h1 span{
+    color: #F24005;
+}
+
+.text-container h1{
+    font-size: 200px;
+    font-weight: bolder;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -180px;
+}
+
+.picture-gallery{
+    position: absolute;
+    transform: translate(283px, 0px);
+}
+
+.two{
+    position: absolute;
+    transform: translate(296px, -305px);
+}
+
+.three{
+    position: absolute;
+    
+}
+
+.four{
+    position: absolute;
+    transform: translate(582px, -306px);
+}
