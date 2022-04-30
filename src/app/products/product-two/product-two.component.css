@@ -39,3 +39,37 @@
     height: 580px;
     width: 1000px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .upper-container{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 14px;
+    }
+    .vertical-bar{
+        display: none;
+    }
+
+    .lower-centere-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .product-one-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 445px;   
+
+    }
+
+    .product-one-text-container{
+        text-align: center;
+        width: 300px;
+    }
+
+    .lower-container-for-text{
+        text-align: center;
+    }
+}

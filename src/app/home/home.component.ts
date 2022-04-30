@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  Image:String = "../assets/images/newBackground.png"
+
   constructor() { }
 
   ngOnInit(): void {

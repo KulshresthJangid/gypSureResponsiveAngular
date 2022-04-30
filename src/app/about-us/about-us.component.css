@@ -2,22 +2,24 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-.about-us{
-    overflow: hidden;
-    /* margin-top: 0.2px; */
+
+
+.upper-gradient-circle{
+    margin-top: -100px;
+    text-align: center;
 }
 
-.upper-gradient-circle h1{
+.about-us-upper-text{
     text-align: center;
 }
 
 .upper-gradient-circle{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 471px;
-    background-position: center;
-    margin-top: -200px;
+    margin-top: -751px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(242, 90, 39, 0.58) 0%, rgba(242, 90, 39, 0) 100%);
+    z-index: -1;
 }
 .lower-gradient-circle{
     background: radial-gradient(50% 50% at 50% 50%, rgba(242, 90, 39, 0.58) 0%, rgba(242, 90, 39, 0) 100%);
@@ -25,67 +27,63 @@
 }
 
 .about-us-text{
-    position: absolute;
     z-index: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-.about-us-text h1{
-    position: relative;
-    white-space: nowrap;
-    margin-left: 680px;
+.main-heading h1{
+    text-align: center;
     font-weight: 800;
     font-size: 34px;
-    margin-top: 30px;
 }
 
 .heading{
-    position: absolute;
-    margin-left: 460px;
+    text-align: center;
     white-space: nowrap;
     font-weight: 650;
     margin-top: 30px;
     font-size: 17px;
 }
 
-.first-paragraph{
-    text-align: center;
-    width: 60%;
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 200px;
-    font-size: 14px;
+.about-us-first-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.second-paragraph{
+.about-us-paragraph-text{
     text-align: center;
     width: 60%;
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 370px;
-    font-size: 14px;
+}
+
+
+.second-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .third-paragraph{
-    text-align: center;
-    width: 60%;
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
 }
 .fourth-paragraph{
-    text-align: center;
-    width: 60%;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bolder;
-    margin-left: 300px;
-    margin-top: 540px;
+    
+}
+
+.fourth-paragraph-text{
     font-size: 14px;
+    font-weight: bolder;
 }
 
 .below-section{
-    margin-top: 450px;
-
+    margin-top: 200px;
     height: 717px;
     background-color: rgb(220, 220, 220);
     overflow: hidden;

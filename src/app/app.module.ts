@@ -22,6 +22,9 @@ import {
 	IgxCarouselModule,
 	IgxSliderModule
  } from "igniteui-angular";
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list'
 
 
 @NgModule({
@@ -47,7 +50,10 @@ import {
     MatToolbarModule,
     MatButtonModule,
     IgxCarouselModule,
-    IgxSliderModule
+    IgxSliderModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
