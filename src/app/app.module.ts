@@ -26,6 +26,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { AngularFooterComponent } from './angular-footer/angular-footer.component'
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { AngularFooterComponent } from './angular-footer/angular-footer.componen
     IgxSliderModule,
     MatMenuModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    FlexLayoutModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

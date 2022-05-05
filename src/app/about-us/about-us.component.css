@@ -151,3 +151,22 @@
     height: 51px;
     margin-top: -128px;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .content-divs-count{
+        margin-top: 96px;
+    }
+    .content-div-count{
+        margin-top: -538px;
+    }
+    .below-section{
+        height: 2030px;
+    }
+    .content-divs{
+        margin-top: 152px;
+    }
+    .content-div{
+        margin-top: -134px;
+    }
+}

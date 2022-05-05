@@ -47,7 +47,7 @@
 .all-footer{
     position: absolute;
     z-index: 1;
-    margin-top: 8662px;
+    margin-top: 9585px;
     width: 100%;
 }
 
@@ -75,5 +75,11 @@
         z-index: 1;
         display: block;
         height: 863px;
+    }
+    .about-us{
+        margin-top: 16px;
+    }
+    .all-footer{
+        margin-top: 16174px;
     }
 }
