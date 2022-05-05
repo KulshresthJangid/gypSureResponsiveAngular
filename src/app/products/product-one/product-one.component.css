@@ -44,6 +44,14 @@
     width: 1000px;
 }
 
+.advantage-2{
+    display: none;
+}
+
+.advantage-1{
+    display: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 500px) {
     .upper-container{
         display: flex;
@@ -75,5 +83,30 @@
 
     .lower-container-for-text{
         text-align: center;
+    }
+
+    .advantages-of-gypsum{
+        margin-left: 15px;
+    }
+    .advantages-of-gypsum h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .advantage-1{
+        display: block;
+    }
+
+    .image-advantages img{
+        width: 415px;
+    }
+
+    .advantage-2{
+        width: 100%;
+        display: block;
+    }
+
+    .advantage-image{
+        display: none;
     }
 }

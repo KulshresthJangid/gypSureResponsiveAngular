@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ProductOneComponent } from './product-one/product-one.component';
+import { ProductTwoComponent } from './product-two/product-two.component';
 
 @Component({
   selector: 'app-products',

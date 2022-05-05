@@ -6,6 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
+  slides = [
+
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},
+
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}
+
+  ];
+
 
   constructor() { }
 

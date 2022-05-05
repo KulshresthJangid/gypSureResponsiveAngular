@@ -24,8 +24,8 @@ import {
  } from "igniteui-angular";
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list'
-
+import { MatListModule } from '@angular/material/list';
+import { AngularFooterComponent } from './angular-footer/angular-footer.component'
 
 @NgModule({
   declarations: [
@@ -42,6 +42,7 @@ import { MatListModule } from '@angular/material/list'
     TestReportsProductOneComponent,
     ProductOneFeaturesComponent,
     TestReportsProductTwoComponent,
+    AngularFooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -14,12 +14,12 @@
     <app-product-one *ngIf="!isClicked"></app-product-one>
     <app-product-two *ngIf="isClicked"></app-product-two>
     
-    <div class="container-test-report-certificate">
+    <div *ngIf="!isClicked" class="container-test-report-certificate">
         <div class="test-report-text">
             <h1>Test Report</h1>
         </div>
-        <div class="test-report-container">
-            <img src="https://i.ibb.co/sPDWBPc/test-reports-certificate.jpg" alt="">
+        <div class="test-report-container" >
+            <img class="text-certificate-img" src="https://i.ibb.co/sPDWBPc/test-reports-certificate.jpg" alt="">
         </div>
     </div>
 </div>

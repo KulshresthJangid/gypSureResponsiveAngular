@@ -35,3 +35,56 @@
     position: absolute;
     transform: translate(582px, -306px);
 }
+
+#carousel {
+    
+    display: none;
+  }
+  
+  .slide {
+  height:300px;
+  width:800px;
+  left: -800px;
+  position:absolute;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  animation:  myloop 60s infinite;
+  }
+  
+  .slide1 {animation-delay: -5s;}
+  .slide2 {animation-delay: 10s;}
+  .slide3 {animation-delay: 25s;}
+  .slide4 {animation-delay: 40s;}
+  
+  @keyframes myloop {
+    0%   {left: -800px;}
+    5%  {left: 0px;}
+    25%  {left: 0px;}
+    30%  {left: 800px;}
+    100%   {left: 800px;}
+  }
+
+  .all-footer{
+    position: absolute;
+    z-index: 1;
+    margin-top: 826px;
+    width: 100%;
+}
+
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    #carousel{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 215px;
+        position: relative;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+    }
+
+    .main-container{
+        display: none;
+    }
+}

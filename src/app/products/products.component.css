@@ -89,4 +89,12 @@
     .navigation-button-mid .mat-button{
         font-size: 15px;
     }
+
+    .text-report-container img{
+        height: 50px;
+    }
+
+    .text-certificate-img{
+        height: 600px;
+    }
 }
